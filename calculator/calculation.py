@@ -1,10 +1,5 @@
 # pylint: disable=too-few-public-methods
 
-class Calculations:
-    history = []
-    @classmethod
-    def count(cls) -> int:
-        return len(cls.history)
 class Calculation:
     def __init__(self, a: float, b: float, operator: str):
         self.a = a
