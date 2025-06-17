@@ -22,3 +22,4 @@ class Calculation:
     @staticmethod
     def multiply(a: float, b: float) -> float:
         return a * b
+        
